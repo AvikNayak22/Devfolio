@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   body {
-    @apply font-['Montserrat'];
+    @apply font-['Kanit'];
   }
   li {
     @apply px-4;
@@ -17,13 +17,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 250px;
+  height: 300px;
+  /* width: 500px; */
 }
 
 .content-div:hover {
-  background-image: linear-gradient(
-    to right,
-    rgba(112, 157, 255, 0.8),
-    hsla(242, 74%, 61%, 0.8)
-  ) !important;
+  background: linear-gradient(90deg, #1f1f1f 20%, #2a2929 80%) !important;
 }

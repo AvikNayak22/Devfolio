@@ -1,106 +1,78 @@
 import React from "react";
-import MusicPlayer from "../assets/projects/MusicPlayer.jpg";
+import { AiFillGithub } from "react-icons/ai";
+import { GoBrowser } from "react-icons/go";
 import Country from "../assets/projects/Country.jpg";
-import VisualSort from "../assets/projects/VisualSort.jpg";
+import PriorityWise from "../assets/projects/PriorityWise.jpg";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full sm:h-screen text-gray-300 bg-[#060918]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
+    <div name="work" className="w-full sm:h-screen  bg-[#EFE1BD]">
+      <div className="max-w-[1300px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-[#3a75c2]">
-            Projects
-          </p>
-          <p className="py-4">//Check out some of my recent Projects</p>
+          <p className="text-4xl font-bold inline uppercase">Projects</p>
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
           {/* grid item */}
           <div
             style={{ backgroundImage: `url(${Country})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Country Info Finder
+              <span className="text-2xl font-bold text-white tracking-wider px-5 text-center ">
+                Country Info Finder [React.js, Tailwind]
               </span>
               <div className="pt-8 text-center">
                 <a
                   href="https://an-country-info-app.netlify.app/"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
-                    Demo
+                  <button className="text-center rounded-xl p-2 m-2 bg-white text-gray-700 font-bold text-lg ">
+                    <span className="flex flex-row items-center px-2">
+                      Demo <GoBrowser className="ml-1" />
+                    </span>
                   </button>
                 </a>
                 <a
-                  href="https://github.com/AvikNayak22/Air-Pollution-Indicator"
+                  href="https://github.com/AvikNayak22/Country-Info-Finder"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* grid item */}
-          <div
-            style={{ backgroundImage: `url(${MusicPlayer})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Mini Music Player
-              </span>
-              <div className="pt-8 text-center">
-                <a
-                  href="https://aviknayak22.github.io/Minimalistic-music-player/"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/AvikNayak22/Minimalistic-music-player"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
-                    Code
+                  <button className="text-center rounded-xl p-2 m-2 bg-white text-gray-700 font-bold text-lg ">
+                    <span className="flex flex-row items-center px-2">
+                      Repo <AiFillGithub className="ml-1" />
+                    </span>
                   </button>
                 </a>
               </div>
             </div>
           </div>
-          {/* grid item */}
           <div
-            style={{ backgroundImage: `url(${VisualSort})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            style={{ backgroundImage: `url(${PriorityWise})` }}
+            className="shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Bubble Sort Visualizer
+                PriorityWise [React.js, Sass]
               </span>
               <div className="pt-8 text-center">
-                <a
-                  href="https://aviknayak22.github.io/Sorting-Visualizer-V1/"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
-                    Demo
+                <a href="https://an-task-manager.netlify.app/" target="_blank">
+                  <button className="text-center rounded-xl p-2 m-2 bg-white text-gray-700 font-bold text-lg ">
+                    <span className="flex flex-row items-center px-2">
+                      Demo <GoBrowser className="ml-1" />
+                    </span>
                   </button>
                 </a>
                 <a
-                  href="https://github.com/AvikNayak22/Sorting-Visualizer-V1"
+                  href="https://github.com/AvikNayak22/PriorityWise"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
-                    Code
+                  <button className="text-center rounded-xl p-2 m-2 bg-white text-gray-700 font-bold text-lg ">
+                    <span className="flex flex-row items-center px-2">
+                      Repo <AiFillGithub className="ml-1" />
+                    </span>
                   </button>
                 </a>
               </div>

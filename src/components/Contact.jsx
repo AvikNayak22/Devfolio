@@ -1,47 +1,59 @@
 import React from "react";
+import HTML from "../assets/html.png";
+import CSS from "../assets/css.png";
+import Javascript from "../assets/javascript.png";
+import Reactjs from "../assets/react.png";
+import Tailwind from "../assets/tailwind.png";
+import cplus from "../assets/cplus.png";
+import Mysql from "../assets/mysql.png";
+import Github from "../assets/github.png";
 
 const Contact = () => {
   return (
-    <div
-      name="contact"
-      className="w-full h-screen bg-[#060918] flex justify-center items-center p-4"
-    >
-      <form
-        action="https://getform.io/f/86d90927-56d6-41c5-839a-3956fe643a20"
-        className="flex flex-col max-w-[600px] w-full"
-        method="POST"
-      >
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-[#3a75c2] text-gray-300">
-            Contact
-          </p>
-          <p className="text-gray-300 py-4">
-            // Submit the form below or shoot me an email -
-            nayakavik19@gmail.com
+    <div name="contact" className="w-full h-screen bg-[#1F1F1F] text-[#EEEEEE]">
+      {/* container */}
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div>
+          <p className="text-4xl font-bold inline uppercase">Contact</p>
+          <p className="py-5">
+            Want to get in touch? Contact me on any of the platform
           </p>
         </div>
-        <input
-          className="p-2 bg-[#ccd6fc]"
-          type="text"
-          placeholder="Name"
-          name="name"
-        />
-        <input
-          className="my-4 p-2 bg-[#ccd6fc]"
-          type="email"
-          placeholder="Email"
-          name="email"
-        />
-        <textarea
-          className="bg-[#ccd6fc] p-2"
-          name="message"
-          rows="10"
-          placeholder="Message"
-        ></textarea>
-        <button className="text-white border-2 hover:bg-[#3a75c2] hover:border-[#3a75c2] px-4 py-3 my-8 mx-auto flex items-center">
-          Let's Collaborate
-        </button>
-      </form>
+        <div className="w-full grid grid-cols-2 sm:grid-cols-8 gap-10 text-center py-8">
+          <div className="shadow-md bg-[#EEEEEE] rounded-[50%] hover:scale-110 duration-500 p-5">
+            <img
+              className="w-20 mx-auto"
+              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+              alt="HTML icon"
+            />
+            {/* <p className="my-4">HTML</p> */}
+          </div>
+          <div className="shadow-md bg-[#EEEEEE] rounded-[50%] hover:scale-110 duration-500 p-5">
+            <img
+              className="w-15 mx-auto"
+              src="https://pngimg.com/d/linkedIn_PNG27.png"
+              alt="CSS icon"
+            />
+            {/* <p className="my-4">CSS</p> */}
+          </div>
+          <div className="shadow-md bg-[#EEEEEE] rounded-[50%] hover:scale-110 duration-500 p-6">
+            <img
+              className="w-20 mx-auto"
+              src="https://www.freepnglogos.com/new-twitter-x-logo-transparent-png-4.png"
+              alt="Javascript icon"
+            />
+            {/* <p className="my-4">Javascript</p> */}
+          </div>
+          <div className="shadow-md bg-[#EEEEEE] rounded-[50%] hover:scale-110 duration-500 p-2">
+            <img
+              className="w-20 mx-auto"
+              src="https://static.vecteezy.com/system/resources/previews/017/221/839/original/telegram-logo-transparent-free-png.png"
+              alt="Reactjs icon"
+            />
+            {/* <p className="my-4">React Js</p> */}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
