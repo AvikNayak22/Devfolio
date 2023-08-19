@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-['Kanit'];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  /* width: 500px; */
+}
+
+.content-div:hover {
+  background: linear-gradient(90deg, #1f1f1f 20%, #2a2929 80%) !important;
+}
