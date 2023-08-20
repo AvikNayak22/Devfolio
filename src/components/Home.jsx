@@ -10,7 +10,7 @@ const Home = () => {
     >
       {/* container */}
       <div className="max-w-[2000px] mx-auto px-6 flex flex-col justify-center items-center h-full">
-        <h1 className="text-2xl sm:text-5xl font-bold">Avik Nayak</h1>
+        <h1 className="text-2xl sm:text-5xl font-bold">Hi,I am Avik Nayak</h1>
         <h3 className="text-xl sm:text-4xl text-[#313544] text-center py-6 max-w-[700px]">
           I am passionate about building projects that are not only useful but
           also good looking.
