@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight, HiDownload } from "react-icons/hi";
 import { Link } from "react-scroll";
+import ResumePDF from "../assets/AvikNayakResume.pdf";
 
 const Home = () => {
   return (
@@ -17,10 +18,17 @@ const Home = () => {
         </h3>
         <div className="flex flex-row items-center justify-center">
           <button className="group px-6 py-3.5 my-2  bg-[#2A2929] text-[#EEEEEE] hover:bg-[#1F1F1F] duration-300">
-            <span className="flex flex-row items-center">
-              Download Resume
-              <HiDownload className="ml-3" />
-            </span>
+            <a
+              href={ResumePDF}
+              download="Avik-Nayak-Resume"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="flex flex-row items-center">
+                Download Resume
+                <HiDownload className="ml-3" />
+              </span>
+            </a>
           </button>
           <Link to="work" smooth={true} duration={500}>
             <button className=" group border-2 px-6 py-3 my-2 flex items-center bg-[white] border-black mx-4">

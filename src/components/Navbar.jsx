@@ -80,48 +80,6 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-
-      {/* Social Icons */}
-      {/* <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-        <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]">
-            <a
-              className="flex justify-between items-center w-full text-gray-200 "
-              href="https://www.linkedin.com/in/avik-nayak-50b667222/"
-              target="_blank"
-            >
-              LinkedIn <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0E1116]">
-            <a
-              className="flex justify-between items-center w-full text-gray-200 "
-              href="https://github.com/AvikNayak22"
-              target="_blank"
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EA4335]">
-            <a
-              className="flex justify-between items-center w-full text-gray-200 "
-              href="nayakavik19@gmail.com"
-              target="_blank"
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#440CCC]">
-            <a
-              className="flex justify-between items-center w-full text-gray-200 "
-              href="https://documentcloud.adobe.com/gsuiteintegration/index.html?state=%7B%22ids%22%3A%5B%221g65fF1-EERSxxLK3bqJ1aAQ3M8SuicIB%22%5D%2C%22action%22%3A%22open%22%2C%22userId%22%3A%22109482712198933315268%22%2C%22resourceKeys%22%3A%7B%7D%7D"
-              target="_blank"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div> */}
     </div>
   );
 };

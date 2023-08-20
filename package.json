@@ -1,6 +1,6 @@
 {
   "name": "personal-portfolio",
-  "homepage":  "https://portfolio-avik-1.netlify.app/",
+  "homepage": "https://portfolio-avik-1.netlify.app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +13,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
-    "react-scroll": "^1.8.9"
+    "react-scroll": "^1.8.9",
+    "swiper": "^10.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
